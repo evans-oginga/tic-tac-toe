@@ -1,4 +1,10 @@
 /*
+    Added the background-color
+*/
+body{
+    background-image: linear-gradient(green, yellow, blue);
+}
+/*
     styling the basic container for the tic tac toe
 */
 #container {
