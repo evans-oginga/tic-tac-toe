@@ -7,3 +7,50 @@
   margin: auto;
   margin-top: 100px;
 }
+/*
+    Setting up the header
+*/
+#container h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+/*
+    setting the styles for every quadrant
+*/
+.q {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 100px;
+}
+.q:hover {
+  background-color: azure;
+}
+/*
+    setting up the border lines of the quadrants
+*/
+#q0,
+#q1,
+#q2,
+#q3,
+#q4,
+#q5 {
+  border-bottom: 10px solid black;
+}
+#q2,
+#q5,
+#q8,
+#q1,
+#q4,
+#q7 {
+  border-left: 10px solid black;
+}
+.winner {
+  color: red;
+}
